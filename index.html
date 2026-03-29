@@ -116,9 +116,11 @@
   .numbers-bar {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #222;
+    border: 1px solid #222;
     background: var(--gris-oscuro);
+    max-width: 900px;
+    margin: 0 auto;
+    width: calc(100% - 4rem);
   }
 
   .num-cell {
